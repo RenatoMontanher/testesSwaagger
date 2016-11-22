@@ -1,0 +1,32 @@
+---
+swagger: "2.0"
+info:
+  description: "Sptrans"
+  version: "1.0.0"
+  title: "Sptrans API"
+host: "10.6.11.114:9090"
+basePath: "/v1/sbe"
+schemes:
+- "http"
+produces:
+- "application/json"
+paths:
+  /midia/tipo-midia:
+    get:
+      tags:
+      - "rds"
+      summary: "RDS - 3.083 Tipo de Mídia."
+      description: "teste"
+      responses:
+        200:
+          description: "teste"
+          schema:
+            $ref: '#/definitions/TipoMidia'
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: '#/definitions/TipoMidia'
+definitions:
+  $ref: ./definitions/index.yaml
+
+

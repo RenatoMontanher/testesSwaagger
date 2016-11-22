@@ -1,0 +1,127 @@
+TipoMidia:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de mídia.
+    descricao:
+      type: string
+      description: descrição do tipo de mídia.
+Error:
+  type: "object"
+  properties:
+    code:
+      type: "integer"
+      format: "int32"
+    message:
+      type: "string"
+    fields:
+      type: "string"
+
+TipoNacionalidade:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador da nacionalidade.
+    descricao:
+      type: string
+      description: descrição da nacionalidade. 
+EstadoCivil:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do estado civil.
+    descricao:
+      type: string
+      description: descrição do estado civil. 
+
+TipoDocumento:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de documento.
+    descricao:
+      type: string
+      description: descrição do tipo de documento.
+
+OrgaoExpedidor:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do orgão expedidor.
+    descricao:
+      type: string
+      description: descrição do orgão expedidor.
+
+TipoFiliacao:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de filiação.
+    descricao:
+      type: string
+      description: descrição do tipo de filiação.
+
+TipoEndereco:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de endereço.
+    descricao:
+      type: string
+      description: descrição do tipo de endereço.
+
+TipoCPF:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de CPF.
+    descricao:
+      type: string
+      description: descrição do tipo de CPF.
+
+TipoMidia:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de mídia.
+    descricao:
+      type: string
+      description: descrição do tipo de mídia.
+TipoSam:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo de SAM.
+    descricao:
+      type: string
+      description: descrição do tipo de SAM.
+TipoTelefone:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo do Telefone.
+    descricao:
+      type: string
+      description: descrição do tipo de Telefone.
+TipoValidacao:
+  type: object	
+  properties:
+    id:
+      type: integer
+      description: código identificador do tipo do Validacao.
+    descricao:
+      type: string
+      description: descrição do tipo de Validacao.
+
+

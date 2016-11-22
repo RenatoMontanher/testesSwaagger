@@ -1,0 +1,2 @@
+TipoMidia:
+  $ref: ./TipoMidia.yaml
