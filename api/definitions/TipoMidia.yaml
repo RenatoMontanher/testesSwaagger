@@ -1,0 +1,8 @@
+type: object	
+properties:
+  id:
+    type: integer
+    description: código identificador do tipo de mídia.
+  descricao:
+    type: string
+    description: descrição do tipo de mídia.
